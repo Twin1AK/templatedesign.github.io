@@ -1,0 +1,117 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+header{
+	background-image: linear-gradient(to right, #6db9ef , #7ce08a);
+}
+
+.btn-primary{
+	background-image: linear-gradient(to right, #6db9ef , #7ce08a) !important;
+	color: white;
+	text-transform: uppercase;
+	border: none !important;
+	border-radius: none !important;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.btn-primary:hover{
+	/*color:linear-gradient(to right, #6db9ef , #7ce08a) !important;*/
+	background-color:  white !important;
+}
+
+.menu{
+	background-image: linear-gradient(to right, #6db9ef , #7ce08a) !important;
+	text-transform: uppercase;
+}
+
+.nav-link{
+	font-size:16px;
+	color: #fff !important;
+	margin: 2px;
+}
+
+.navbar-nav{
+	text-align: center;
+}
+
+.menu .navbar-toggler{
+	padding-top: 0;
+	outline: none;
+	border:none;
+}
+
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/background.jpg');
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	color: #fff;
+}
+
+ h1{
+ 	padding-top:200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.search{
+	margin-top: -50px;
+	margin-right:50px;
+	margin-left:50px;
+	background:linear-gradient(to right, #6db9ef , #7ce08a) !important;
+	min-height: 100px;
+
+}
+
+.search .form-control{
+	max-width: 200px;
+	height: 40px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	border:none;
+	border-radius: none;
+	margin: 20px;
+}
+
+.search .btn-primary{
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 2px;
+	padding: 5px 30px;
+}
+
+.headings{
+	margin-top: 100px !important;
+}
+
+.feed-rows{
+	margin-top: 40px;
+	padding: 40px;
+}
+
+.inner{
+	overflow: hidden;
+}
+
+.images{
+	width: 100% !important;
+	height: 200px !important;
+	/*transform: scale(0) !important;*/
+	cursor: pointer;
+	transition: all 0.9s ease;
+	background-size: cover;
+	background-position: center;
+	object-fit: cover;
+}
+
+.inner:hover .images{
+	transform: scale(5) !important;
+	
+}
